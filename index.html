@@ -13,7 +13,7 @@
         <div class="uppertext">Let's get started! Sign up and make your dreams of becoming a coder a reality.</div>
         <div class="minitext">Where you <span class="inside"> WILL </span>excel</div>
         <div class="formbox">
-            <form action="#" method="post">
+            <form method="post" id="my-form">
                 <div class="formthing">
                     <label for="first_name">First Name:</label>
                     <input type="text" id="first_name" title="Please enter your first name or nickname" required>
@@ -45,7 +45,7 @@
                 </div>
 
                 
-                <button class="submit-button" type="submit">Submit</button>
+                <button class="submit-button" form="my-form" type="reset">Submit</button>
             </form>
         </div>
         <p class="text">Already have an account? <span class="login">Log In</span></p>
