@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 100vh;
+    width: 44vw;
+    margin:0;
+}
+
+
+.contentbox {
+    width: 55vw;
+    height: 100vh;
+    background-color: ghostwhite;
+    float:right;
+    position: relative;
+    padding:0;
+    margin-top:-10;
+}
+
+.minitext {
+    position: relative;
+    top: 5vh;
+    font-size: 30px;
+    font-family: 'Ubuntu';
+    text-align: center; 
+
+}
+
+.inside {
+    color: dodgerblue;
+}
+
+.uppertext {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    font-family:'system-ui';
+    padding: 10px;
+    top: 20px;
+}
+
+.formbox {
+    width: 55vw;
+    height: 25vw;
+    background-color:azure;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    box-shadow: -3px 4px 35px -7px rgba(0,0,0,0.75);
+
+}
+
+form {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formthing {
+    font-size: 20px;
+    background-color: transparent;
+    border-top: none;
+    margin-right: 20px;
+    height: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input {
+    width: 400px;
+    background-color: ghostwhite;
+    position: relative;
+    top: 3em;
+    right: 5em;
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    
+}
+
+label {
+    display:inline-block;
+    width: 7em;
+    position: relative;
+    left: 2.5em;
+    top:1em;
+    text-transform:uppercase;
+    font-family:'ubuntu';
+    font-weight:500;
+}
+
+input:focus {
+    border: none;
+}
+
+input:invalid {
+    border-bottom:2px solid red;
+}
+
+.submit-button {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    top: 11vh;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing:border-box;
+    background-color: azure;
+    border:1px solid grey;
+    right: 20vw;
+    font-family:'Ubuntu';
+}
+
+.submit-button:hover {
+    box-shadow: -3px 4px 35px -7px rgba(0,0,0,0.75);
+    border-color:dodgerblue;
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+.text {
+    font-size: 20px;
+    position: relative;
+    top:10em;
+    font-family:'Ubuntu';
+    margin-left: 1em;
+}
+
+
+.login {
+    color:purple;
+    cursor:pointer;
+}
+
+.login:hover {
+    border-bottom:4px solid violet;
+}
+
+input:valid {
+    border-bottom:1px solid green;
+}
+
+#confirm_password {
+    width: 190px;
+    position: relative;
+    left:4.5em;
+}
+
+#confirm-password {
+    position: relative;
+    left: -5.5em;
+}
+
+
+
+
